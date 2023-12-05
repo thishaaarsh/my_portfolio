@@ -1,4 +1,8 @@
-import HeroImg from '../images/HeroImage.jpg'
+import study from '../images/study.jpg'
+import sort from '../images/sort.png'
+import dsa from '../images/dsa.jpg'
+import gosec from '../images/logo-1.png'
+import school from '../images/school.jpg'
 
 
 export const Bio = {
@@ -219,7 +223,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.collegedekho.com%2Fcolleges%2Fcourses-syadwad-institute-of-higher-education-and-research&psig=AOvVaw0AGEdW1p5LBqprf1sDU1Sa&ust=1701837312023000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCL1pW894IDFQAAAAAdAAAAABAE",
+    img: `${school}` ,
     school: "Syadwad Jain Academy",
     date: "May 2019",
     grade: "95%",
@@ -228,7 +232,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.collegedekho.com%2Fcolleges%2Fcourses-syadwad-institute-of-higher-education-and-research&psig=AOvVaw0AGEdW1p5LBqprf1sDU1Sa&ust=1701837312023000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCL1pW894IDFQAAAAAdAAAAABAE",
+    img: `${school}` ,
     school: "Syadwad Jain Academy",
     date: "May 2017",
     grade: "10CGPA",
@@ -244,8 +248,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Developed a fully functional ed-tech platform that enables users to create and consume educational content. Provides seamless and interactive learning experience for students, making education more accessible and engaging",
-    image:
-      "https://private-user-images.githubusercontent.com/90460581/287937125-885d9341-4425-4749-8223-e9c9335f05e6.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTcwMjMsIm5iZiI6MTcwMTc1NjcyMywicGF0aCI6Ii85MDQ2MDU4MS8yODc5MzcxMjUtODg1ZDkzNDEtNDQyNS00NzQ5LTgyMjMtZTljOTMzNWYwNWU2LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MTIwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI0ZTBjZmI0OTQ1ZDJiNTRhOTg3YjNlZGY5NGIwZGI1OGViMGU4MDZhODRhOWM2NzI0YzE5NzllZGI4MWE5ODImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.glH7A-wjMA2R0gmY1d9wxUFNpngm5iPjDmW5Q-ReGo8",
+    image: `${study}`,
     tags: [
       "MERN"
     ],
@@ -260,7 +263,7 @@ export const projects = [
     description:
       "Developed a DSA Tracker which is a comprehensive collection of 450 DSA popular questions designed to enhance problem-solving skills. The project focuses on providing a user-friendly interface with features to help users organize their DSA journey and track their progress",
     image:
-      "https://private-user-images.githubusercontent.com/90460581/287934331-45edf17e-b47d-4cde-bf7d-eba6211357f7.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTcyMjAsIm5iZiI6MTcwMTc1NjkyMCwicGF0aCI6Ii85MDQ2MDU4MS8yODc5MzQzMzEtNDVlZGYxN2UtYjQ3ZC00Y2RlLWJmN2QtZWJhNjIxMTM1N2Y3LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MTUyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU2OTMwMDRlMTc2MzZjNGI1YWFmMjU5MDBhODQ5YWE2NzU0OTc3MzVlNjRlNGFhYmYxMDM1MzNkNzBiZmVkYzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qmFX4DtgTuKWRaahAkrkfZk4cnwv6AbjBxLBKGwIwaY",
+      `${dsa}`,
     tags: [
       "HTML","CSS","JavaScript"
     ],
@@ -274,8 +277,7 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
       "Developed a Sorting Visualizer application to dynamically demonstrate and visualize various sorting algorithms. The project aimed to enhance understanding and visualization of sorting techniques aiding in the education and exploration of algorithmic concepts.",
-    image:
-      "https://private-user-images.githubusercontent.com/90460581/252446427-7f3bd08e-8546-4ed5-bafb-02c1db71dd11.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTczNzQsIm5iZiI6MTcwMTc1NzA3NCwicGF0aCI6Ii85MDQ2MDU4MS8yNTI0NDY0MjctN2YzYmQwOGUtODU0Ni00ZWQ1LWJhZmItMDJjMWRiNzFkZDExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MTc1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZmY3Mzk1MTBkZDMyNjZlNWJmYjNhMThhNzBkZGRkM2FhZGY1YzBiOWU5Y2M4MDc0MzBhNGZjNGQ4ZmE1OWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VymdbzweCqQ99a1zk2y_Cu8Fz3VgPv4lYIpMTv5rXVU",
+    image: `${sort}`,
     tags: [
       "HTML","CSS","JavaScript"
     ],
@@ -289,8 +291,7 @@ export const projects = [
     date: "Nov 2023 - ongoing ",
     description:
       "Considering the importance of safety and security of women in India, I wanted to give it a try from my end to address the issue in a simpler and safer way. The app is about safety as well as awareness & makes the user safe & confident. It is easy to use because of it's user friendly and easy to navigate UI. I wanted to give them a tap on the shoulder to keep going and not give up! Keeping this mind I developed an application named GoSecure.",
-    image:
-      "https://private-user-images.githubusercontent.com/90460581/287940483-c5f1438b-6a84-4cd9-ab7e-35ef242f1e15.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTc1ODcsIm5iZiI6MTcwMTc1NzI4NywicGF0aCI6Ii85MDQ2MDU4MS8yODc5NDA0ODMtYzVmMTQzOGItNmE4NC00Y2Q5LWFiN2UtMzVlZjI0MmYxZTE1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MjEyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlhODc3NTE2ZDU2N2VjNjAxOTI4NDAwOGI2YTA5MjYzM2E4NGI4MGUxYmU5OTllNWM5ZjQ1YmVjNjM5NGEyMGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.XUGDdS1CEHEEndl2BqtOTcjB8AeXHkry5vxFle_mDKw",
+    image: `${gosec}`,
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "android app",
     github: "https://github.com/thishaaarsh/go_secure",
